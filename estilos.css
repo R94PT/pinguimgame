@@ -1,0 +1,338 @@
+
+body {
+    background-image: url("imagemfundo.jpg");
+    background-repeat: no-repeat;
+}
+
+.hidden{ display: none; }  
+
+
+h1 {
+  margin: 0;
+  position: relative;
+  text-align: left;
+  color:rgba(2, 93, 140, 6)
+ 
+} 
+
+h2,h3,h4 {
+  color: #452F73;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  max-width:340px; }
+
+
+  p.instrucoes {
+    font-size: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+    max-width:340px;
+}
+
+  
+p1 {color: black;
+    position:absolute; 
+    top:425px; 
+    left:1000px;
+    background-color: aliceblue;
+    border: solid;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    position: absolute;
+    border-right: : 0px solid;
+    border-radius: 25px;
+    max-width:340px;
+}
+
+
+
+.pontosRoma, .pontosPiramide {
+    display: none;
+    position:absolute; 
+    top:460px; 
+    left:1000px;
+    background-color: aliceblue;
+    border: solid;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-right:0px solid;    
+    border-radius: 25px 0px 0px 25px;
+      
+}
+
+#pos{display:none;}
+
+#mute{
+    position:absolute;
+    left: 480px;    
+    top:411px; 
+    background-color: darkgrey;
+    border: solid;
+    color: black;
+    padding: 5px 15px
+    cursor: pointer;
+    }
+
+#unmute{
+    position:absolute;
+    left: 533px;    
+    top:411px; 
+    background-color: darkgrey;
+    border: solid;
+    
+    color: black;
+    padding: 5px 15px
+    cursor: pointer;
+    }
+
+#pontosRoma{
+    left: 1195px;
+    border-left:0px solid;
+    border-radius: 0px 25px 25px 0px;
+    }
+
+#pontosPiramide{
+    left: 1192px;
+    border-left:0px solid;
+    border-radius: 0px 25px 25px 0px;
+    }
+
+#pontuacao{
+    position:absolute; 
+    top:425px; 
+    left:1118px;
+    display: none;
+    background-color: aliceblue;
+    border: solid;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    border-left: 0px solid;
+    border-radius: 0px 25px 25px 0px;
+
+}
+
+#botaoCoroa{
+    background-color: antiquewhite;
+    border: solid;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 1050px;
+    top:140px;
+    display: none;
+    width: 100px;
+}
+
+#botaoCeptro{
+    background-color: antiquewhite;
+    border: solid;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 1050px;
+    top:80px;
+    display: none;
+    width: 100px;
+}
+
+#botaoChave{
+    background-color: antiquewhite;
+    border: solid;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 1050px;
+    top:20px;
+    display: none;
+    width: 100px;
+}
+
+#botaoColiseu{
+    background-color: antiquewhite;
+    border: solid;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 365px;
+    top:20px;
+    display: none;
+    width: 100px;  
+}
+
+#botaoPanteao{
+    background-color: antiquewhite;
+    border: solid;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 365px;
+    top:80px;
+    display: none;
+    width: 100px;    
+}
+
+#botaoVaticano{
+    background-color: antiquewhite;
+    border: solid;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 365px;
+    top:140px;
+    display: none;
+    width: 100px;    
+}
+
+#botaoCima {
+    background-color: grey;
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 725px;    
+    top:410px; 
+}
+
+#botaoDt {
+    background-color: grey;
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 840px;
+    top:475; 
+}
+
+#botaoEsq {
+    background-color: grey;
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 580px;
+    top: 475px;
+}
+
+#botaoBaixo {
+    background-color: grey;
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 725px;    
+    top:540px;
+}
+
+#botaoParar {
+    background-color: grey;
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 725px;
+    top: 475px;
+}
+
+#scroller {
+    position: absolute;
+    left: 480px;
+    background-color: #424242;
+	padding-left: 45px;
+	height: 400px;
+	width: 500px;
+	background-image: url('screen.png');
+	background-repeat: no-repeat;
+    border: solid;
+    color: black;
+}
+
+#character {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 32px;
+    height: 32px;
+    background: url('character.png') ;
+    }
+#character.left-right { background-position: 0px -32px; }
+#character.left-stand { background-position: -32px -32px; }
+#character.left-left { background-position: -64px -32px; }
+#character.right-right { background-position: -64px -64px; }
+#character.right-stand { background-position: -32px -64px; }
+#character.right-left { background-position: -0px -64px; }
+#character.back-right { background-position: 0px -96px; }
+#character.back-stand { background-position: -32px -96px; }
+#character.back-left { background-position: -64px -96px; }
+#character.front-right { background-position: 0px 0px; }
+#character.front-stand { background-position: -32px 0px; }
+#character.front-left { background-position: -64px 0px; }
+

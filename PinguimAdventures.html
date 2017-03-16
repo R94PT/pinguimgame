@@ -1,0 +1,111 @@
+<html>
+
+<!-- Rafael Moisés 66117 PGIAO -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+<script type="text/javascript" src="funcoes.js"></script>
+<link rel="stylesheet" type="text/css" href="estilos.css" />
+
+</head>
+
+<body onkeydown="Key(event)">
+
+<div id="scroller">   <div id="character">
+   </div> </div>
+
+<!-- botoes de movimento -->
+
+<div id="botaoDt"
+<button onclick="moveD()">Direita</button>
+</div>
+
+<div id="botaoEsq"
+<button onclick="moveE()">Esquerda</button>
+</div>
+
+<div id="botaoParar"
+<button onclick="stop()">Parar</button>
+</div>
+
+<div id="botaoParar"
+<button onclick="stop()">Parar</button>
+</div>
+
+<div id="botaoCima"
+<button onclick="moveC()">Cima</button>
+</div>
+
+<div id="botaoBaixo"
+<button onclick="moveB()">Baixo</button>
+</div>
+
+<!-- botoes dos pontos -->
+<input id="botaoColiseu"; type="button" onclick="window.open('https://pt.wikipedia.org/wiki/Coliseu'); return false;" value="Coliseu" />
+<input id="botaoVaticano"; type="button" onclick="window.open('https://pt.wikipedia.org/wiki/Vaticano'); return false;" value="Vaticano" />
+<input id="botaoPanteao"; type="button" onclick="window.open('https://pt.wikipedia.org/wiki/Pante%C3%A3o_(Roma)'); return false;" value="Panteao" />
+<input id="botaoChave"; type="button" onclick="window.open('https://pt.wikipedia.org/wiki/Ankh'); return false;" value="Chave" />
+<input id="botaoCoroa"; type="button" onclick="window.open('https://en.wikipedia.org/wiki/Pschent'); return false;" value="Coroa" />
+<input id="botaoCeptro"; type="button" onclick="window.open('http://www.ancientegyptonline.co.uk/royalemblems.html'); return false;" value="Ceptro" />
+
+
+<!-- botoes de pause/play na musica -->
+<button id = "mute"; onclick="paraMusicaBotao()">Mute</button>
+<button id = "unmute"; onclick="play()">Unmute</button>
+
+
+<div id="pos"></div>
+
+
+<p1>Total de Peças:</p1>
+<div id="pontuacao" >0</div>
+
+<p2 class="pontosRoma">Peças restantes em Roma:</p2>
+<div id="pontosRoma" class="pontosRoma">3</div>
+
+<p3 class="pontosPiramide">Peças restantes Piramide:</p3>
+<div id="pontosPiramide" class="pontosPiramide">3</div>
+
+
+<h1> A Aventura do Pinguim
+    </h1>
+
+
+
+<h2> A Aventura 
+    </h2>
+
+    <p class="instrucoes"> &emsp;Benvindo ao jogo do pinguim! Neste jogo vai ter de encontrar as peças de uma chave que possibilitará 
+    a abertura de um misterioso e recompensador tesouro para o pinguim.</p>
+
+<h3> Instruções
+    </h3>
+
+  <p class="instrucoes">  &emsp;Espalhadas por 2 localizações do mapa inicial, encontram-se 6 peças que constituem a chave que abre o tesouro que pinguim tanto procura.<br/><br/>
+&emsp;Após a descoberta de cada uma das localizações o pinguim irá dirigir-se ao interior das mesmas para a procura e recolha das 3 chaves respetivas.
+Sempre que uma parte da chave for encontrada, aparecerá um <b>botão onde poderá clicar</b> e que contém informações acerca do local onde a parte foi encontrada.<br/><br/>
+&emsp;Quando as 3 peças de uma localização forem encontradas, irá ser desbloqueado um teleport para o mapa inicial.
+Quando o pinguim possuir todas as peças, o seu objetivo é procurar a localização do tesouro. </p>
+
+
+<h3> Controlos
+    </h3>
+
+
+<p class="instrucoes">
+<ul>  
+   <li>Teclas das setas para andar </li>
+   <li>Espaço para parar</li>   
+</ul>
+Pode ainda utilizar os botões presentes na página. </p>
+
+
+<audio id="italiano" src="italia1.wav" ></a>
+<audio id="inicio" src="adventure.wav" ></a>
+<audio id="egito" src="cairo.wav" ></a>
+<audio id="fim" src="gameoversom1.wav" ></a>
+</body>
+</body>
+</html>
+
